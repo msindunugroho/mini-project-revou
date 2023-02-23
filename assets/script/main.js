@@ -1,10 +1,9 @@
 
 // wellcome
-const clientName = prompt('Hello, what is your name?');
-alert(`Wellcome ${clientName}`);
+const clientName = prompt('what is your name?');
+alert(`welcome ${clientName}`);
 
-
-// NAV
+// NAVd
 const menuIcon = document.getElementsByClassName('menu-icon');
 const navContainer = document.getElementsByClassName('nav-container');
 navDropOpened = false;

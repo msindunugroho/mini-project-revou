@@ -1187,22 +1187,22 @@ section#bookstore .container .card-container .card-container-item .card:hover.ca
   background-color: rgba(0, 0, 0, 0.4);
 }
 section#bookstore .container .card-container .card-container-item .lib-1 {
-  background-image: url("/assets/img/lib-1.jpg");
+  background-image: url("assets/img/lib-1.jpg");
 }
 section#bookstore .container .card-container .card-container-item .lib-2 {
-  background-image: url("/assets/img/lib-2.jpg");
+  background-image: url("assets/img/lib-2.jpg");
 }
 section#bookstore .container .card-container .card-container-item .lib-3 {
-  background-image: url("/assets/img/lib-3.jpg");
+  background-image: url("assets/img/lib-3.jpg");
 }
 section#bookstore .container .card-container .card-container-item .lib-4 {
-  background-image: url("/assets/img/lib-4.jpg");
+  background-image: url("assets/img/lib-4.jpg");
 }
 section#bookstore .container .card-container .card-container-item .lib-5 {
-  background-image: url("/assets/img/lib-5.jpg");
+  background-image: url("assets/img/lib-5.jpg");
 }
 section#bookstore .container .card-container .card-container-item .lib-6 {
-  background-image: url("/assets/img/lib-6.jpg");
+  background-image: url("assets/img/lib-6.jpg");
 }
 
 @media (max-width: 433.98px) {
