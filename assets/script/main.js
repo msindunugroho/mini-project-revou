@@ -1,7 +1,7 @@
 
 // wellcome
-// const clientName = prompt('what is your name?');
-// alert(`welcome ${clientName}`);
+const clientName = prompt('what is your name?');
+alert(`welcome ${clientName}`);
 
 // NAVd
 const menuIcon = document.getElementsByClassName('menu-icon');
