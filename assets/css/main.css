@@ -1187,7 +1187,7 @@ section#bookstore .container .card-container .card-container-item .card:hover.ca
   background-color: rgba(0, 0, 0, 0.4);
 }
 section#bookstore .container .card-container .card-container-item .lib-1 {
-  background-image: url("./assets/img/lib-1.jpg");
+  background-image: url("./../../../assets/img/lib-1.jpg");
 }
 section#bookstore .container .card-container .card-container-item .lib-2 {
   background-image: url("./assets/img/lib-2.jpg");
