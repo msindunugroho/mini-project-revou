@@ -542,7 +542,7 @@ section#book-stats .container .desc {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  background-image: linear-gradient(to right, rgba(255, 228, 196, 0), bisque, bisque);
+  background-image: linear-gradient(to right, rgba(255, 228, 196, 0.459) 10%, bisque);
   display: flex;
   padding: 0 0 30px 0;
   flex-direction: column;
