@@ -23,7 +23,6 @@ nav .container {
 }
 nav .container .logo-brand {
   height: 100%;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   display: flex;
@@ -36,7 +35,6 @@ nav .container .logo-brand img {
   margin: 0 10px 0 0;
 }
 nav .container .nav-bar {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   height: 100%;
@@ -46,7 +44,6 @@ nav .container .nav-bar {
   margin-right: 0px;
 }
 nav .container .nav-bar .nav-link {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   height: 100%;
@@ -84,7 +81,6 @@ nav .container .nav-bar .nav-link .dropdown {
   justify-content: center;
   align-items: flex-start;
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   position: fixed;
@@ -124,7 +120,6 @@ nav .container .nav-bar .nav-link .dropdown .title {
 }
 nav .container .nav-bar .nav-link .dropdown .link-container {
   width: 74%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   display: flex;
@@ -151,7 +146,6 @@ nav .container .nav-bar .nav-link .dropdown .link-container .link-section a {
   z-index: 9;
 }
 nav .container .nav-bar .nav-link .dropdown .link-container .link-section a p {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   border-radius: 2px;
@@ -172,7 +166,6 @@ nav .container .nav-bar .nav-link .dropdown .link-container .link-section a p .m
 }
 nav .container .library {
   height: 100%;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   transition: 0.3s cubic-bezier(0.18, 0.85, 0.38, 0.95);
@@ -186,7 +179,6 @@ nav .container .library:hover .dropdown {
 @media (max-width: 575.98px) {
   nav {
     min-height: 72px;
-    max-height: -webkit-max-content;
     max-height: -moz-max-content;
     max-height: max-content;
     background-color: bisque;
@@ -195,7 +187,6 @@ nav .container .library:hover .dropdown {
   nav .menu {
     display: flex;
     width: 100%;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
     justify-content: flex-end;
@@ -213,7 +204,6 @@ nav .container .library:hover .dropdown {
   }
   nav .container {
     width: 100%;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
     display: flex;
@@ -251,7 +241,6 @@ nav .container .library:hover .dropdown {
 @media (max-width: 767.98px) {
   nav {
     min-height: 72px;
-    max-height: -webkit-max-content;
     max-height: -moz-max-content;
     max-height: max-content;
     background-color: bisque;
@@ -260,7 +249,6 @@ nav .container .library:hover .dropdown {
   nav .menu {
     display: flex;
     width: 100%;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
     justify-content: flex-end;
@@ -278,7 +266,6 @@ nav .container .library:hover .dropdown {
   }
   nav .container {
     width: 100%;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
     display: flex;
@@ -343,7 +330,6 @@ section#hero .hero-img img {
 }
 section#hero .title {
   width: 50%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: 70px 30px;
@@ -369,14 +355,12 @@ section#hero .title p {
   margin-bottom: 15px;
 }
 section#hero .title .btn {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
 }
 
 @media (max-width: 433.98px) {
   section#hero {
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
@@ -408,7 +392,6 @@ section#hero .title .btn {
 }
 @media (max-width: 575.98px) {
   section#hero {
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
@@ -440,7 +423,6 @@ section#hero .title .btn {
 }
 @media (max-width: 767.98px) {
   section#hero {
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
@@ -472,7 +454,6 @@ section#hero .title .btn {
 }
 @media (max-width: 991.98px) {
   section#hero {
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
@@ -505,7 +486,6 @@ section#hero .title .btn {
 section#book-stats {
   background-color: bisque;
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: 100px 0;
@@ -515,7 +495,6 @@ section#book-stats {
 }
 section#book-stats .container {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   display: flex;
@@ -561,7 +540,6 @@ section#book-stats .container .desc .desc-header h1 {
 }
 section#book-stats .container .desc .desc-stats {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   display: flex;
@@ -573,7 +551,6 @@ section#book-stats .container .desc .desc-stats {
 }
 section#book-stats .container .desc .desc-stats .stats-item {
   width: 150px;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   display: flex;
@@ -589,7 +566,6 @@ section#book-stats .container .desc .desc-stats .stats-item .number-stats-item {
   font-weight: 400;
   color: rgb(0, 150, 187);
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   margin-bottom: 11px;
@@ -598,7 +574,6 @@ section#book-stats .container .desc .desc-stats .stats-item .desc-stats-item {
   color: rgb(105, 105, 105);
   width: 100%;
   font-size: 18px;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
 }
@@ -618,7 +593,6 @@ section#book-stats .container .brown-gradient-bg {
   }
   section#book-stats .container .book-stats-img {
     width: 100%;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
@@ -628,7 +602,6 @@ section#book-stats .container .brown-gradient-bg {
   section#book-stats .container .desc {
     position: static;
     width: 100%;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
     background-image: linear-gradient(to bottom, rgba(255, 228, 196, 0), bisque, bisque);
@@ -641,7 +614,6 @@ section#book-stats .container .brown-gradient-bg {
     padding: 10px 0;
   }
   section#book-stats .container .desc .desc-stats .stats-item {
-    width: -webkit-max-content !important;
     width: -moz-max-content !important;
     width: max-content !important;
     margin: 10px;
@@ -661,7 +633,6 @@ section#book-stats .container .brown-gradient-bg {
   }
   section#book-stats .container .book-stats-img {
     width: 100%;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
@@ -671,7 +642,6 @@ section#book-stats .container .brown-gradient-bg {
   section#book-stats .container .desc {
     position: static;
     width: 100%;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
     background-image: linear-gradient(to bottom, rgba(255, 228, 196, 0), bisque, bisque);
@@ -684,7 +654,6 @@ section#book-stats .container .brown-gradient-bg {
     padding: 10px 0;
   }
   section#book-stats .container .desc .desc-stats .stats-item {
-    width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
     margin: 10px;
@@ -704,7 +673,6 @@ section#book-stats .container .brown-gradient-bg {
   }
   section#book-stats .container .book-stats-img {
     width: 100%;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
@@ -714,7 +682,6 @@ section#book-stats .container .brown-gradient-bg {
   section#book-stats .container .desc {
     position: static;
     width: 100% !important;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
     background-image: linear-gradient(to bottom, rgba(255, 228, 196, 0), bisque, bisque);
@@ -727,7 +694,6 @@ section#book-stats .container .brown-gradient-bg {
     padding: 10px 0;
   }
   section#book-stats .container .desc .desc-stats .stats-item {
-    width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
     margin: 10px;
@@ -744,7 +710,6 @@ section#book-stats .container .brown-gradient-bg {
 section#learning {
   background-color: rgb(255, 220, 177);
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   border-radius: 12px 12px 0 0;
@@ -759,7 +724,6 @@ section#learning .container {
 }
 section#learning .container .learning-title {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   margin-bottom: 50px;
@@ -774,7 +738,6 @@ section#learning .container .learning-title p {
 }
 section#learning .container .card-container {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   display: flex;
@@ -798,7 +761,6 @@ section#learning .container .card-container .card {
 }
 section#learning .container .card-container .card .card-header {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   display: flex;
@@ -864,7 +826,6 @@ section#learning .container .card-container .card .card-header .material-symbols
 }
 section#learning .container .card-container .card .card-desc {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   text-transform: capitalize;
@@ -913,13 +874,13 @@ section#learning .container .card-container .card:hover #arrow {
     margin-bottom: 0;
   }
   section#learning .container .card-container .card .card-header .material-symbols-rounde#economics,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#math,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#history,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#computer,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#biology,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#psycology,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#anthropology,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#social {
+  section#learning .container .card-container .card .card-header .material-symbols-rounded#math,
+  section#learning .container .card-container .card .card-header .material-symbols-rounded#history,
+  section#learning .container .card-container .card .card-header .material-symbols-rounded#computer,
+  section#learning .container .card-container .card .card-header .material-symbols-rounded#biology,
+  section#learning .container .card-container .card .card-header .material-symbols-rounded#psycology,
+  section#learning .container .card-container .card .card-header .material-symbols-rounded#anthropology,
+  section#learning .container .card-container .card .card-header .material-symbols-rounded#social {
     box-shadow: none;
   }
   section#learning .container .card-container .card .card-desc {
@@ -938,14 +899,12 @@ section#learning .container .card-container .card .card-header .material-symbols
 }
 section#bookstore {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   background-color: rgb(32, 32, 32);
 }
 section#bookstore .container {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: 100px 40px;
@@ -1226,7 +1185,6 @@ section#bookstore .container .card-container .card-container-item .card:hover.ca
 }
 section#form {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   background-color: rgb(32, 32, 32);
@@ -1235,7 +1193,6 @@ section#form {
 }
 section#form .container {
   width: 85%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: 60px 40px;
@@ -1248,10 +1205,8 @@ section#form .container {
   box-shadow: 0 0 10px 0 rgb(0, 0, 0);
 }
 section#form .container .form-title {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: 0 50px;
@@ -1265,10 +1220,8 @@ section#form .container .form-title h1 {
   color: white;
 }
 section#form .container .card {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: 15px;
@@ -1333,7 +1286,6 @@ section#form .container .card form .ver {
   align-items: center;
   justify-content: space-between;
   width: 65px;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
 }
@@ -1472,14 +1424,12 @@ section#form .container .card form .ver span {
 }
 section#output {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   background-color: rgb(32, 32, 32);
 }
 section#output .container {
   width: 85%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: 60px 40px;
@@ -1487,10 +1437,8 @@ section#output .container {
   box-shadow: 0 10px 10px 0 rgb(0, 0, 0);
 }
 section#output .container .card-output {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: 10px;
@@ -1531,7 +1479,6 @@ section#output .container .card-output p {
 }
 footer {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   background-color: black;
@@ -1555,10 +1502,8 @@ footer .container .top-footer {
   padding: 60px 0 5px 0;
 }
 footer .container .top-footer .brand-title {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   width: 25%;
@@ -1575,10 +1520,8 @@ footer .container .top-footer .container-link {
   flex-wrap: wrap;
 }
 footer .container .top-footer .container-link .link-section {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   margin: 0 50px 50px 0;
@@ -1597,7 +1540,6 @@ footer .container .top-footer .container-link .link-section a p.sub-link {
 }
 footer .container .baseline-footer {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   display: flex;
@@ -1607,10 +1549,8 @@ footer .container .baseline-footer {
   padding: 10px 0 20px 0;
 }
 footer .container .baseline-footer .sosmed {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: 5px;
@@ -1625,10 +1565,8 @@ footer .container .baseline-footer .sosmed a img {
   margin: 5px;
 }
 footer .container .baseline-footer .baseline-logo {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
 }

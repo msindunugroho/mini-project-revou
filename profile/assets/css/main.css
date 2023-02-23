@@ -23,7 +23,6 @@ nav .container {
 }
 nav .container .logo-brand {
   height: 100%;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   display: flex;
@@ -36,7 +35,6 @@ nav .container .logo-brand img {
   margin: 0 10px 0 0;
 }
 nav .container .nav-bar {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   height: 100%;
@@ -46,7 +44,6 @@ nav .container .nav-bar {
   margin-right: 0px;
 }
 nav .container .nav-bar .nav-link {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   height: 100%;
@@ -84,7 +81,6 @@ nav .container .nav-bar .nav-link .dropdown {
   justify-content: center;
   align-items: flex-start;
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   position: fixed;
@@ -124,7 +120,6 @@ nav .container .nav-bar .nav-link .dropdown .title {
 }
 nav .container .nav-bar .nav-link .dropdown .link-container {
   width: 74%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   display: flex;
@@ -151,7 +146,6 @@ nav .container .nav-bar .nav-link .dropdown .link-container .link-section a {
   z-index: 9;
 }
 nav .container .nav-bar .nav-link .dropdown .link-container .link-section a p {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   border-radius: 2px;
@@ -172,7 +166,6 @@ nav .container .nav-bar .nav-link .dropdown .link-container .link-section a p .m
 }
 nav .container .library {
   height: 100%;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   transition: 0.3s cubic-bezier(0.18, 0.85, 0.38, 0.95);
@@ -186,7 +179,6 @@ nav .container .library:hover .dropdown {
 @media (max-width: 575.98px) {
   nav {
     min-height: 72px;
-    max-height: -webkit-max-content;
     max-height: -moz-max-content;
     max-height: max-content;
     background-color: bisque;
@@ -195,7 +187,6 @@ nav .container .library:hover .dropdown {
   nav .menu {
     display: flex;
     width: 100%;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
     justify-content: flex-end;
@@ -213,7 +204,6 @@ nav .container .library:hover .dropdown {
   }
   nav .container {
     width: 100%;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
     display: flex;
@@ -251,7 +241,6 @@ nav .container .library:hover .dropdown {
 @media (max-width: 767.98px) {
   nav {
     min-height: 72px;
-    max-height: -webkit-max-content;
     max-height: -moz-max-content;
     max-height: max-content;
     background-color: bisque;
@@ -260,7 +249,6 @@ nav .container .library:hover .dropdown {
   nav .menu {
     display: flex;
     width: 100%;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
     justify-content: flex-end;
@@ -278,7 +266,6 @@ nav .container .library:hover .dropdown {
   }
   nav .container {
     width: 100%;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
     display: flex;
@@ -328,7 +315,6 @@ section#profile .container {
 }
 section#profile .container .profile-img {
   width: 40%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
 }
@@ -350,7 +336,6 @@ section#profile .container .desc-profile p {
 @media (max-width: 433.98px) {
   section#profile {
     padding: 60px 10px;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
@@ -367,7 +352,6 @@ section#profile .container .desc-profile p {
 @media (max-width: 575.98px) {
   section#profile {
     padding: 60px 10px;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
@@ -384,7 +368,6 @@ section#profile .container .desc-profile p {
 @media (max-width: 767.98px) {
   section#profile {
     padding: 60px 10px;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
@@ -400,7 +383,6 @@ section#profile .container .desc-profile p {
 }
 footer {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   background-color: black;
@@ -424,10 +406,8 @@ footer .container .top-footer {
   padding: 60px 0 5px 0;
 }
 footer .container .top-footer .brand-title {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   width: 25%;
@@ -444,10 +424,8 @@ footer .container .top-footer .container-link {
   flex-wrap: wrap;
 }
 footer .container .top-footer .container-link .link-section {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   margin: 0 50px 50px 0;
@@ -466,7 +444,6 @@ footer .container .top-footer .container-link .link-section a p.sub-link {
 }
 footer .container .baseline-footer {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   display: flex;
@@ -476,10 +453,8 @@ footer .container .baseline-footer {
   padding: 10px 0 20px 0;
 }
 footer .container .baseline-footer .sosmed {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: 5px;
@@ -494,10 +469,8 @@ footer .container .baseline-footer .sosmed a img {
   margin: 5px;
 }
 footer .container .baseline-footer .baseline-logo {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
 }
