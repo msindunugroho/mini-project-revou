@@ -1,0 +1,294 @@
+footer {
+    width: 100%;
+    height: max-content;
+    background-color: black;
+    color: white;
+   
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+
+        .top-footer {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 60px 0 5px 0; 
+
+
+            .brand-title {
+                width: max-content;
+                height: max-content;
+                width: 25%;
+                // padding-right: 50px;
+        
+                h1 {
+                    text-align: center;
+                }
+            }
+        
+            .container-link {
+                width: 75%;
+                height: 100%;
+                padding-left:50px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                .link-section {
+                    width: max-content;
+                    height: max-content;
+                    margin: 0 50px 50px 0;
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+                        p {
+                            margin: 8px;
+
+                            &.sub-link {
+                                margin-bottom: 15px;
+                                font-weight: 600;
+                                font-size: 18px;
+                            }
+
+                        }
+                    }
+                }
+
+
+
+
+            }
+        }
+
+        .baseline-footer {
+            width: 100%;
+            height: max-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0 20px 0;
+
+            .sosmed {
+                width: max-content;
+                height: max-content;
+                padding: 5px;
+                display: flex;
+                align-self: flex-end;
+                align-items: center;
+                border-top: 1px solid white;
+                border-bottom: 1px solid white;
+                a {
+
+                    img{
+                        width: 27px;
+                        margin: 5px;
+                    }
+                }
+            }
+
+            .baseline-logo {
+                width: max-content;
+                height: max-content;
+
+                img {
+                    width: 50px;
+                    background-color: rgb(53, 53, 53);
+                    border-radius: 100%;
+                    margin: 0px 5px 15px;
+                }
+            }
+
+            .created-by {
+                text-align: center;
+                
+                p {
+                    padding: 5px 0;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+
+
+// `xs` returns only a ruleset and no media query
+// ... { ... }
+
+@media (max-width: 433.98px) {
+    footer {
+        .container {
+            .top-footer {
+                flex-direction: column;
+                .brand-title {
+                    width: 100%;
+                    padding: 0 10px;
+                    h1 {
+                        text-align: start;
+                    }
+                }
+                .container-link {
+                    width: 100%;
+                    padding-left: 0;
+
+                    .link-section {
+                        margin: 10px;
+                        a {
+                            p {
+                                margin: 3px;
+                                font-size: 12px;
+
+                                &.sub-link {
+                                    font-size: 14px;
+                                    margin-bottom: 7px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .baseline-footer {
+                .sosmed {
+                    margin: 10px 0;
+                    padding: 3px;
+                }
+            }
+        }
+    }
+}
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    footer {
+        .container {
+            .top-footer {
+                flex-direction: column;
+                .brand-title {
+                    width: 100%;
+                    padding: 0 10px;
+                    h1 {
+                        text-align: start;
+                    }
+                }
+                .container-link {
+                    width: 100%;
+                    padding-left: 0;
+
+                    .link-section {
+                        margin: 10px;
+                        a {
+                            p {
+                                margin: 3px;
+                                font-size: 12px;
+
+                                &.sub-link {
+                                    font-size: 14px;
+                                    margin-bottom: 7px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .baseline-footer {
+                .sosmed {
+                    margin: 10px 0;
+                    padding: 3px;
+                }
+            }
+        }
+    }
+}
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    footer {
+        .container {
+            .top-footer {
+                flex-direction: column;
+                .brand-title {
+                    width: 100%;
+                    padding: 0 10px;
+                    h1 {
+                        text-align: start;
+                    }
+                }
+                .container-link {
+                    width: 100%;
+                    padding-left: 0;
+
+                    .link-section {
+                        margin: 10px;
+                        a {
+                            p {
+                                margin: 3px;
+                                font-size: 12px;
+
+                                &.sub-link {
+                                    font-size: 14px;
+                                    margin-bottom: 7px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .baseline-footer {
+                .sosmed {
+                    margin: 10px 0;
+                    padding: 3px;
+                }
+            }
+        }
+    }
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+    footer {
+        .container {
+            .top-footer {
+                flex-direction: column;
+                .brand-title {
+                    width: 100%;
+                    padding: 0 10px;
+                    h1 {
+                        text-align: start;
+                    }
+                }
+                .container-link {
+                    width: 100%;
+                    padding-left: 0;
+
+                    .link-section {
+                        margin: 10px;
+                        a {
+                            p {
+                                margin: 3px;
+
+                                &.sub-link {
+                                    margin-bottom: 7px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .baseline-footer {
+                .sosmed {
+                    margin: 10px 0;
+                    padding: 3px;
+                }
+            }
+        }
+    }
+}

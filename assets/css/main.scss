@@ -1,0 +1,61 @@
+@use './modules/nav';
+@use './modules/hero';
+@use './modules/book-stats';
+@use './modules/learning';
+@use './modules/bookstore';
+@use './modules/form';
+@use './modules/output';
+@use './modules/footer';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.btn {
+  color: white;
+  border: 1px solid white;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+}
+.btn::before {
+  content: '';
+  z-index: -1;
+  width: 1%;
+  height:inherit;
+  position: absolute;
+  border-radius: 100%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255, 228, 196, 0.301);
+  opacity: 0;
+  transition: .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.btn:hover{
+  color: black;
+}
+.btn:hover::before {
+  content: '';
+  z-index: -1;
+  width: 100%;
+  height:inherit;
+  position: absolute;
+  border-radius: 0;
+  background-color: rgb(255, 228, 196);
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 1;
+
+}

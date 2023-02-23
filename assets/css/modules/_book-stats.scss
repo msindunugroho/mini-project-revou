@@ -1,0 +1,275 @@
+// book-stats
+section#book-stats {
+    background-color: bisque;
+    width: 100%;
+    height: max-content;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .container {
+      width: 100%;
+      height: max-content;
+      display: flex;
+      padding: 0 15px;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      position: relative;
+      font-family: "Open Sans", sans-serif;
+  
+      .book-stats-img {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+  
+  
+  
+        img {
+          margin-top: 2px;
+          height: 100%;
+        }
+      }
+  
+      .desc {
+        width: 50%;
+        height: max-content;
+        background-image: linear-gradient(to right, rgba(255, 228, 196, 0), bisque, bisque);
+        display: flex;
+        padding: 0 0 30px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+  
+        .desc-header {
+          width: 100%;
+  
+          h1 {
+            color: rgb(0, 150, 187);
+            text-transform: capitalize;
+            font-size: 55px;
+          }
+        }
+  
+        .desc-stats {
+          width: 100%;
+          height: max-content;
+          display: flex;
+          padding: 60px 0;
+          justify-content: flex-start;
+          align-items: center;
+          flex-direction: row;
+          flex-wrap: wrap;
+          
+          .stats-item {
+            width: 150px;
+            height: max-content;
+            display: flex;
+            flex-direction: column;
+            padding: 5px 5px 5px 20px;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 30px;
+            border-left: 3px solid rgb(255, 255, 255);
+  
+            .number-stats-item {
+              font-size: 40px;
+              font-weight: 400;
+              color: rgb(0, 150, 187);
+              width: 100%;
+              height: max-content;
+              margin-bottom: 11px;
+            }
+            .desc-stats-item {
+              color: rgb(105, 105, 105);
+              width: 100%;
+              font-size: 18px;
+              height: max-content;
+            }
+          }
+        }
+      }
+  
+      .brown-gradient-bg {
+        background-image: linear-gradient(to right, rgb(255, 241, 223), rgb(253, 141, 4) );
+        padding: 0 5px ;
+      }
+    }
+  }
+
+
+
+  // `xs` returns only a ruleset and no media query
+// ... { ... }
+@media (max-width: 433.98px) {
+ section#book-stats {
+  padding: 60px 0;
+
+  .container {
+    flex-direction: column;
+    padding: 0 10px;
+    justify-content: center !important;
+
+    .book-stats-img {
+      width: 100%;
+      height: max-content;
+
+      img {
+        width: 100%;
+
+      }
+    }
+
+    .desc {
+      position:static;
+      width: 100%;
+      height: max-content;
+      background-image: linear-gradient(to bottom, rgba(255, 228, 196, 0), bisque, bisque);
+      margin-top: -70px;
+
+      .desc-header {
+        h1 {
+          font-size: 27px
+        }
+      }
+      .desc-stats {
+        padding: 10px 0;
+
+        .stats-item {
+          width: max-content !important;
+          margin: 10px;
+
+          .number-stats-item {
+            font-size: 25px;
+          }
+
+        }
+      }
+    }
+  }
+ }
+}
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+  section#book-stats {
+    padding: 60px 0;
+  
+    .container {
+      flex-direction: column;
+      padding: 0 10px;
+      justify-content: center;
+  
+      .book-stats-img {
+        width: 100%;
+        height: max-content;
+  
+        img {
+          width: 100%;
+  
+        }
+      }
+  
+      .desc {
+        position:static;
+        width: 100%;
+        height: max-content;
+        background-image: linear-gradient(to bottom, rgba(255, 228, 196, 0), bisque, bisque);
+        margin-top: -70px;
+  
+        .desc-header {
+          h1 {
+            font-size: 27px
+          }
+        }
+        .desc-stats {
+          padding: 10px 0;
+  
+          .stats-item {
+            width: max-content;
+            margin: 10px;
+  
+            .number-stats-item {
+              font-size: 25px;
+            }
+  
+          }
+        }
+      }
+    }
+   }
+ }
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+  section#book-stats {
+    padding: 100px 0;
+  
+    .container {
+      flex-direction: column;
+      padding: 0 10px;
+      justify-content: center;
+  
+      .book-stats-img {
+        width: 100%;
+        height: max-content;
+  
+        img {
+          width: 100%;
+  
+        }
+      }
+  
+      .desc {
+        position:static;
+        width: 100% !important;
+        height: max-content;
+        background-image: linear-gradient(to bottom, rgba(255, 228, 196, 0), bisque, bisque);
+        margin-top: -70px;
+  
+        .desc-header {
+          h1 {
+            font-size: 27px
+          }
+        }
+        .desc-stats {
+          padding: 10px 0;
+  
+          .stats-item {
+            width: max-content;
+            margin: 10px;
+  
+            .number-stats-item {
+              font-size: 25px;
+            }
+  
+          }
+        }
+      }
+    }
+   }
+ }
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  section#book-stats {
+    .container {
+      .desc {
+        width: 60%;
+      }
+    }
+  }
+ }
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {  }
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {  }
