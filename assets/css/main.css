@@ -881,7 +881,7 @@ section#learning .container .card-container .card:hover #arrow {
   opacity: 1;
 }
 
-@media (max-width: 433.98px) {
+@media (max-width: 991.98px) {
   section#learning .container {
     padding: 60px 10px;
   }
@@ -925,115 +925,8 @@ section#learning .container .card-container .card .card-header .material-symbols
   section#learning .container .card-container .card .card-desc {
     width: 110px;
     height: 60px;
-    align-items: center;
-  }
-  section#learning .container .card-container .card .card-desc h3 {
-    font-size: 15px;
-    margin-bottom: 0;
-  }
-  section#learning .container .card-container .card .card-desc p {
-    display: none;
-  }
-}
-@media (max-width: 575.98px) {
-  section#learning .container {
-    padding: 60px 10px;
-  }
-  section#learning .container .learning-title {
-    margin-bottom: 15px;
-  }
-  section#learning .container .learning-title h1 {
-    font-size: 27px;
-    margin-bottom: 0;
-  }
-  section#learning .container .learning-title p {
-    display: none;
-  }
-  section#learning .container .card-container {
-    flex-direction: row;
-  }
-  section#learning .container .card-container .card {
-    width: 180px;
-    height: 60px;
-    flex-direction: row;
-    margin: 10px 5px;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  section#learning .container .card-container .card .card-header {
-    width: 60px;
-    height: 60;
-    padding: 0;
-    margin-bottom: 0;
-  }
-  section#learning .container .card-container .card .card-header .material-symbols-rounde#economics,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#math,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#history,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#computer,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#biology,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#psycology,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#anthropology,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#social {
-    box-shadow: none;
-  }
-  section#learning .container .card-container .card .card-desc {
-    width: 110px;
-    height: 60px;
-    align-items: center;
-  }
-  section#learning .container .card-container .card .card-desc h3 {
-    font-size: 15px;
-    margin-bottom: 0;
-  }
-  section#learning .container .card-container .card .card-desc p {
-    display: none;
-  }
-}
-@media (max-width: 767.98px) {
-  section#learning .container {
-    padding: 60px 10px;
-  }
-  section#learning .container .learning-title {
-    margin-bottom: 15px;
-  }
-  section#learning .container .learning-title h1 {
-    font-size: 27px;
-    margin-bottom: 0;
-  }
-  section#learning .container .learning-title p {
-    display: none;
-  }
-  section#learning .container .card-container {
-    flex-direction: row;
-  }
-  section#learning .container .card-container .card {
-    width: 180px;
-    height: 60px;
-    flex-direction: row;
-    margin: 10px 5px;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  section#learning .container .card-container .card .card-header {
-    width: 60px;
-    height: 60;
-    padding: 0;
-    margin-bottom: 0;
-  }
-  section#learning .container .card-container .card .card-header .material-symbols-rounde#economics,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#math,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#history,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#computer,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#biology,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#psycology,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#anthropology,
-section#learning .container .card-container .card .card-header .material-symbols-rounded#social {
-    box-shadow: none;
-  }
-  section#learning .container .card-container .card .card-desc {
-    width: 110px;
-    height: 60px;
-    align-items: center;
+    display: flex;
+    align-items: center !important;
   }
   section#learning .container .card-container .card .card-desc h3 {
     font-size: 15px;
