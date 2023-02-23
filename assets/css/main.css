@@ -539,12 +539,10 @@ section#book-stats .container .book-stats-img img {
 }
 section#book-stats .container .desc {
   width: 50%;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-  background-image: linear-gradient(to right, rgba(255, 228, 196, 0.459) 10%, bisque);
+  height: 100%;
+  background-image: linear-gradient(to right, rgb(255, 228, 196) 10%, bisque);
   display: flex;
-  padding: 0 0 30px 0;
+  padding: 0 0 30px 30px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -583,7 +581,7 @@ section#book-stats .container .desc .desc-stats .stats-item {
   padding: 5px 5px 5px 20px;
   justify-content: center;
   align-items: center;
-  margin: 10px 30px;
+  margin: 10px 30px 10px 0;
   border-left: 3px solid rgb(255, 255, 255);
 }
 section#book-stats .container .desc .desc-stats .stats-item .number-stats-item {
